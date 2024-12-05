@@ -7,7 +7,7 @@ import base64
 import PIL.Image
 import json
 !pip install -q -U google-generativeai
-genai.configure(api_key="AIzaSyA5ClYkgjCa7lwNwvmbsHyWzzYldcRh9KQ") # Replace with your actual API key
+genai.configure(api_key=API_KEY) # Replace with your actual API key
 
 #import httpx
 
